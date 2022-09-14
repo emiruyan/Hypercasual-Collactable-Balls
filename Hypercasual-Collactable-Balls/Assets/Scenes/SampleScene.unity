@@ -144,6 +144,7 @@ GameObject:
   - component: {fileID: 33739085}
   - component: {fileID: 33739084}
   - component: {fileID: 33739083}
+  - component: {fileID: 33739086}
   m_Layer: 0
   m_Name: Positive_Gate (2)
   m_TagString: Gate
@@ -234,6 +235,19 @@ Transform:
   m_Father: {fileID: 1843065265}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &33739086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33739082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4, y: 5.7199993, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &96915468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -614,7 +628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gateNumberText: {fileID: 1155504890}
-  _gateType: 0
+  _gateType: 1
   _gateNumber: 0
 --- !u!65 &519334241
 BoxCollider:
@@ -1726,7 +1740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gateNumberText: {fileID: 2097595600}
-  _gateType: 0
+  _gateType: 1
   _gateNumber: 0
 --- !u!65 &1161201348
 BoxCollider:
@@ -2163,6 +2177,7 @@ GameObject:
   - component: {fileID: 1354992556}
   - component: {fileID: 1354992555}
   - component: {fileID: 1354992554}
+  - component: {fileID: 1354992557}
   m_Layer: 0
   m_Name: Positive_Gate (1)
   m_TagString: Gate
@@ -2253,6 +2268,19 @@ Transform:
   m_Father: {fileID: 1843065265}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1354992557
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354992553}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4, y: 5.7199993, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1412124342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2507,6 +2535,7 @@ GameObject:
   - component: {fileID: 1715926719}
   - component: {fileID: 1715926718}
   - component: {fileID: 1715926717}
+  - component: {fileID: 1715926720}
   m_Layer: 0
   m_Name: Positive_Gate
   m_TagString: Gate
@@ -2597,6 +2626,19 @@ Transform:
   m_Father: {fileID: 1843065265}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1715926720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715926716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4, y: 5.7199993, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1776890462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8224387871943214767, guid: 3f7602dd02a5d514eb9712eb92c4c557, type: 3}
@@ -2701,7 +2743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gateNumberText: {fileID: 677729627}
-  _gateType: 0
+  _gateType: 1
   _gateNumber: 0
 --- !u!65 &1841410803
 BoxCollider:
@@ -3289,6 +3331,7 @@ MonoBehaviour:
   _ballCountText: {fileID: 1938185182}
   _balls:
   - {fileID: 1550718617}
+  ballPrefab: {fileID: 8224387871943214763, guid: 3f7602dd02a5d514eb9712eb92c4c557, type: 3}
   _moveSpeed: 7
   _horizontalSpeed: 20
   _horizontalLimit: 2.27
