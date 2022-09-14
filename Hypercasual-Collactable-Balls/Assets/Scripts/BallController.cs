@@ -24,6 +24,10 @@ public class BallController : MonoBehaviour
         {
             _horizontal = Input.GetAxisRaw("Mouse X");//Unty içerinde ki Axis'i _horizontal değerimize atadık.
         }
+        else
+        {//Mouse sol click basılmıyor ise;
+            _horizontal = 0;
+        }
 
         _newX = transform.position.x + _horizontal * _horizontalSpeed * Time.deltaTime;
         _newX = Mathf.Clamp(_newX, -_horizontalLimit, _horizontalLimit);//Ball hareketini x düzleminde sınırladık
